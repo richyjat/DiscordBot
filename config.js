@@ -1,9 +1,9 @@
 /* eslint-disable */
 var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 	// ALL settings are strings. Do NOT just use true or false, use these in strings such as 'true' or 'false'. This is due to how some code works when changing the settings
-	ownerID: '', // Your ID here
-	token: '', // Your bot token here
-	status: 'dnd', // Bot status [online/idle/invisible/dnd]
+	ownerID: '556037595965161512', // Your ID here
+	token: 'NjQ0Njc5OTE4NTc1MTU3MjUx.Xc3jEQ.f1QhAMU0Xcs8IiRFyVHQfnPgm9c', // Your bot token here
+	status: 'online', // Bot status [online/idle/invisible/dnd]
 	debug: 'false', // This is used to output some debug info if needed. The token will be in the console and other information could be in the console
 	playingGame: '{{prefix}}help | {{guilds}} guilds | v{{version}}', // The game you want the bot to play. {{prefix}} is replaced with the default prefix below, {{guilds}} is replaced with the guild count and {{version}} is replaced with the bot version. Leave blank to disable
 	purgeLogFormat: '\n Message ID: {{mID}} | Message Timestamp: {{mTS}} | Content: {{mC}} \n', // {{mID}}: Message ID; {{mTS}} Message Timestamp; {{mC}}: Message Content;
@@ -13,7 +13,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
   logTimeFormat: 'D MMM YYYY HH:mm:ss ZZ',
   musicEnabled: 'true',
 	defaultSettings: {
-		prefix: '&&&',
+		prefix: '??',
 		modLogChannel: 'mod-log',
 		modRole: 'Moderator',
 		adminRole: 'Admin',
@@ -44,7 +44,7 @@ var config = { // NOTE: DO NOT LEAVE ANYTHING BLANK
 		protectStats: 'false',
 		borderedStats: 'false', // Controls whether stats in the dashboard should have a border or not
 		legalTemplates: {
-			contactEmail: 'admin@ndt3.ml', // This email will be used in the legal page of the dashboard if someone needs to contact you for any reason regarding this page
+			contactEmail: 'supportteam@hostingworld.epizy.com', // This email will be used in the legal page of the dashboard if someone needs to contact you for any reason regarding this page
 			lastEdited: '18 November 2017' // Change this if you update the `TERMS.md` or `PRIVACY.md` files in `dashboard/public/`
 		}
 	}
